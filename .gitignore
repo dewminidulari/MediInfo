@@ -1,0 +1,33 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets/
+*.pem
+*.key
+service-account*.json
+
+# Local Python environment and generated files
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, type-checker, and packaging artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
